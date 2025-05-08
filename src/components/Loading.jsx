@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image"; // Importando o componente Image do Next.js
+import Image from "next/image"; 
 import styles from "../styles/Loading.module.css";
 
 export default function Loading() {
@@ -10,7 +10,7 @@ export default function Loading() {
     alt="Loading"
     width={200}
     height={200}
-    unoptimized // Adicione esta propriedade
+    unoptimized 
 />
       <p>Carregando países...</p>
     </div>
