@@ -26,7 +26,6 @@ export default function Home() {
 
     return (
         <div className={styles.container}>
-
             <Image className={styles.image} src="/images/earth.gif" alt="Maiko Xikixiki" width={300} height={300} />
             <h1 className={styles.title}> Maiko Xikixiki Bahia</h1>
             <div className={styles.description}>

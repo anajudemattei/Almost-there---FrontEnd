@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image"; // Importando o componente Image do Next.js
+import Image from "next/image";
 import styles from "../styles/CountryCard.module.css";
 
 export default function CountryCard({ country, onClick }) {
@@ -9,8 +9,8 @@ export default function CountryCard({ country, onClick }) {
         src={country.flags.png}
         alt={`Bandeira de ${country.translations.por.common}`}
         className={styles.flag}
-        width={200} // Defina a largura da imagem
-        height={120} // Defina a altura da imagem
+        width={200} 
+        height={120} 
         onError={(e) => (e.target.src = "/images/flag-placeholder.png")}
       />
       <h3 className={styles.name}>{country.translations.por.common}</h3>

@@ -4,17 +4,17 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "flagcdn.com", // Domínio para bandeiras
+                hostname: "flagcdn.com", 
                 pathname: "/**",
             },
             {
                 protocol: "https",
-                hostname: "upload.wikimedia.org", // Domínio para imagens da Wikipedia
+                hostname: "upload.wikimedia.org", 
                 pathname: "/**",
             },
             {
                 protocol: "https",
-                hostname: "restcountries.com", // Domínio para outras imagens de países
+                hostname: "restcountries.com",
                 pathname: "/**",
             },
         ],
