@@ -11,6 +11,7 @@ export default function CountryCard({ country, onClick }) {
         className={styles.flag}
         width={200} // Defina a largura da imagem
         height={120} // Defina a altura da imagem
+        onError={(e) => (e.target.src = "/images/flag-placeholder.png")}
       />
       <h3 className={styles.name}>{country.translations.por.common}</h3>
     </div>

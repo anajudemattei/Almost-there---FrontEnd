@@ -51,7 +51,11 @@ export default function Countries() {
   const currentCountries = countries.slice(startIndex, endIndex);
 
   const handleCardClick = (country) => {
-    toast.info(`Você clicou no país: ${country.name.common}`, {});
+    if (country?.name?.common) {
+      toast.info(`Você clicou no país: ${country.name.common}`, {});
+    } else {
+      toast.error("Informações do país não disponíveis.");
+    }
   };
 
   return (
