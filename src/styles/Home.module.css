@@ -5,14 +5,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: lightgray;
+    background-color: #e0ffd0;
 }
 
 .image {
-    width: 300px;
+    width: 200px;
     height: auto;
     border-radius: 50%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .title {
@@ -31,7 +30,8 @@ padding: 0.5rem 2.5rem;
 .button {
     padding: 10px 20px;
     margin: 20px;
-    background-color: blue;
+    background-color: #99f682;
     color: white;
     border-radius: 5px;
+    border:#58bb48 solid 2px;
 }
